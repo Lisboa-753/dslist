@@ -9,7 +9,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
-@Entity //Configura a classe java para que seja equivalente a uma tabela do banco relacional.
+@Entity //Configura a classe java para que seja equivalente a uma tabela no banco relacional.
 @Table(name = "tb_game")
 public class Game {
 	
