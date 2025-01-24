@@ -20,7 +20,7 @@ public class GameService {
 	
 	@Transactional(readOnly = true) //Não irá bloquear o banco de dados para escrita
 	public GameDTO findById(Long Id) {
-		Game result = gameRepository.findById(Id).get(); //Busca no banco de dados o Game
+		Game result = gameRepository.findById(Id).get(); //Busca no banco de dados o Game pelo ID
 		GameDTO dto = new GameDTO(result); //Converte para DTO
 		return dto;
 	}
@@ -33,7 +33,7 @@ public class GameService {
 
 	@Transactional(readOnly = true)
 	public List<GameMinDTO> findByList(Long listId){
-		List<GameMinProjection> result = gameRepository.searchByList(listId); 
+		List<GameMinProjection> result = gameRepository.searchByList(listId); //Chama consulta SQL do Repository
 		return result.stream().map(x -> new GameMinDTO(x)).toList(); 
 		 
 	}
