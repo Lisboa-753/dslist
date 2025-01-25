@@ -7,12 +7,12 @@ Foi usado o spring Initializr para poder configurar o projeto com JDK 17, Maven,
 
 O projeto foi desenvolvido usando as seguintes tecnlogias:
 
-### Java
-### Spring Boot
-### Maven
-### Hibernate
-### JPA
-### SQL
+- **Java**
+- **Spring Boot**
+- **Maven**
+- **Hibernate**
+- **JPA**
+- **SQL**
 
 ## Pré-requisitos para o projeto 
 
