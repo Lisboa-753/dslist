@@ -5,7 +5,7 @@ Foi usado o spring Initializr para poder configurar o projeto com JDK 17, Maven,
 
 ## Estrutura do Projeto
 
-O projeto foi desenvolvido usando as seguintes tecnlogias:
+O projeto foi desenvolvido usando as seguintes tecnologias:
 
 - **Java**
 - **Spring Boot**
