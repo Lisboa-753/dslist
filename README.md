@@ -26,7 +26,7 @@ O projeto foi desenvolvido usando as seguintes tecnlogias:
 
 ![UML](https://raw.githubusercontent.com/Lisboa-753/dslist/refs/heads/main/UML.png)
 
-## Endpoint da API no Postman
+## Endpoints da API no Postman
 
 - **Games**: Reponsável por retonar a lista de Games.
 - **Games by id** : Retorna os games por ID.
