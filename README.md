@@ -19,9 +19,21 @@ O projeto foi desenvolvido usando as seguintes tecnlogias:
 - **Java**: Foi necesário ter o Java instalado na máquina.
 - **JDK** : Foi necessário instalar o JDK 17.
 - **Banco Relacional H2**: Para homologar a aplicação foi usando o banco de dados H2.
-- **Postmar**:  O postman foi a ferramenta utilizado para testar as endpoints da API.
+- **Postman**:  O postman foi a ferramenta utilizado para testar as endpoints da API.
   
 
-  ## UML
+## UML
 
-  ![UML](https://raw.githubusercontent.com/Lisboa-753/dslist/refs/heads/main/UML.png)
+![UML](https://raw.githubusercontent.com/Lisboa-753/dslist/refs/heads/main/UML.png)
+
+## Endpoint da API no Postman
+
+- **Games**: Reponsável por retonar a lista de Games.
+- **Games by id** : Retorna os games por ID.
+- **Game lists**: Retorna as listas de games da aplicação.
+- **Games by lists**: Exibe apenas os games de determinada lista.
+- **List replacement**: Responsável por alterar a posição do game na lista a qual pertence.
+
+![ENDPOINT](https://raw.githubusercontent.com/Lisboa-753/dslist/refs/heads/main/EndPoint.png)
+
+
